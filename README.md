@@ -30,13 +30,13 @@ Metricbeat takes the metrics and statistics that it collects and ships them to t
 
 The configuration details of each machine may be found below.
 
-| Name     | Function  | IP Address | Operating System |   |
-|----------|-----------|------------|------------------|---|
-| Jump Box | Gateway   | 10.0.0.4   | Linux            |   |
-| Web1     | Webserver | 10.0.0.5   | Linux            |   |
-| Web2     | Webserver | 10.0.0.6   | Linux            |   |
-| Web3     | Webserver | 10.0.0.7   | Linux            |   |
-| Web4     | ELK       | 10.1.0.4   | Linux            |   |
+| Name     | Function  | IP Address | Operating System |  
+|----------|-----------|------------|------------------|
+| Jump Box | Gateway   | 10.0.0.4   | Linux            |  
+| Web1     | Webserver | 10.0.0.5   | Linux            |  
+| Web2     | Webserver | 10.0.0.6   | Linux            |  
+| Web3     | Webserver | 10.0.0.7   | Linux            |  
+| Web4     | ELK       | 10.1.0.4   | Linux            |  
 
 ### Access Policies
 
