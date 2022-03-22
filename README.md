@@ -52,9 +52,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes                 | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Jump Box | Yes                 | 10.0.0.1 10.0.0.2    |                                                                                                    
 
 ### Elk Configuration
 
@@ -92,6 +90,6 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to the IP to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it? The metricbeat-playbook.yml and filebeat-playbook.yml are the files and you copy them to the ELK server.
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? You would have to update the filebeat/metricbeat-config.yml file to run the playbooks on specific machines. To specify which machine to install the ELK server on you would have to configure the filebeat/metricbeat-playbook.yml.
-- _Which URL do you navigate to in order to check that the ELK server is running? You would go to your ELK server public IP address.
+- Which file is the playbook? Where do you copy it? The metricbeat-playbook.yml and filebeat-playbook.yml are the files and you copy them to the ELK server.
+- Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? You would have to update the filebeat/metricbeat-config.yml file to run the playbooks on specific machines. To specify which machine to install the ELK server on you would have to configure the filebeat/metricbeat-playbook.yml.
+- Which URL do you navigate to in order to check that the ELK server is running? You would go to your ELK server public IP address.
